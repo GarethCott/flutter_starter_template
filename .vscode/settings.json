@@ -1,0 +1,155 @@
+{
+    // Flutter & Dart Settings
+    "dart.flutterSdkPath": null,
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.flutterOutline": true,
+    "dart.closingLabels": true,
+    "dart.showTodos": true,
+    "dart.renameFilesWithClasses": "prompt",
+    "dart.warnWhenEditingFilesOutsideWorkspace": true,
+    "dart.allowAnalytics": false,
+    "dart.checkForSdkUpdates": true,
+    
+    // Code Formatting
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "dart.lineLength": 80,
+    
+    // File Associations
+    "files.associations": {
+        "*.dart": "dart",
+        "*.yaml": "yaml",
+        "*.yml": "yaml",
+        "*.json": "json",
+        "*.md": "markdown"
+    },
+    
+    // File Exclusions
+    "files.exclude": {
+        "**/.dart_tool": true,
+        "**/.packages": true,
+        "**/build": true,
+        "**/.flutter-plugins": true,
+        "**/.flutter-plugins-dependencies": true,
+        "**/generated_plugin_registrant.dart": true,
+        "**/*.g.dart": true,
+        "**/*.freezed.dart": true,
+        "**/*.gr.dart": true
+    },
+    
+    // Search Exclusions
+    "search.exclude": {
+        "**/.dart_tool": true,
+        "**/build": true,
+        "**/*.g.dart": true,
+        "**/*.freezed.dart": true,
+        "**/*.gr.dart": true,
+        "**/node_modules": true,
+        "**/coverage": true
+    },
+    
+    // File Watcher Exclusions
+    "files.watcherExclude": {
+        "**/.dart_tool/**": true,
+        "**/build/**": true,
+        "**/.flutter-plugins": true,
+        "**/.flutter-plugins-dependencies": true
+    },
+    
+    // Editor Settings
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.minimap.enabled": true,
+    "editor.showFoldingControls": "always",
+    
+    // Terminal Settings
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.env.osx": {
+        "FLUTTER_ROOT": "/usr/local/flutter"
+    },
+    
+    // Git Settings
+    "git.ignoreLimitWarning": true,
+    "git.autofetch": true,
+    
+    // Extension Settings
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\*|\\+|\\d+\\.)\\s*)($TAGS)",
+    
+    // Emmet Settings
+    "emmet.includeLanguages": {
+        "dart": "html"
+    },
+    
+    // Bracket Pair Colorizer
+    "bracket-pair-colorizer-2.colors": [
+        "#ffd700",
+        "#da70d6",
+        "#87ceeb"
+    ],
+    
+    // Error Lens
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "info"
+    ],
+    
+    // Material Icon Theme
+    "material-icon-theme.folders.associations": {
+        "core": "config",
+        "features": "components",
+        "shared": "shared",
+        "routing": "routes",
+        "providers": "provider",
+        "widgets": "components",
+        "models": "class",
+        "services": "api",
+        "utils": "tools",
+        "constants": "constant",
+        "theme": "theme",
+        "assets": "assets",
+        "env": "environment"
+    },
+    
+    "material-icon-theme.files.associations": {
+        "app_config.dart": "config",
+        "flavor_config.dart": "config",
+        "env_config.dart": "environment",
+        "app_router.dart": "routing",
+        "route_names.dart": "routing",
+        "route_guards.dart": "routing",
+        "app_theme.dart": "theme",
+        "color_schemes.dart": "theme",
+        "text_styles.dart": "theme",
+        "*.provider.dart": "provider",
+        "*.repository.dart": "database",
+        "*.service.dart": "api",
+        "*.model.dart": "class",
+        "*.entity.dart": "class",
+        "*.usecase.dart": "class",
+        "*.extension.dart": "dart",
+        "*.constants.dart": "constant"
+    }
+} 

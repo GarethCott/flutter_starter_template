@@ -1,0 +1,99 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter (Development)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--dart-define-from-file=assets/env/.env.dev"
+            ],
+            "console": "debugConsole"
+        },
+        {
+            "name": "Flutter (Staging)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--dart-define-from-file=assets/env/.env.staging"
+            ],
+            "console": "debugConsole"
+        },
+        {
+            "name": "Flutter (Production)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--dart-define-from-file=assets/env/.env.prod"
+            ],
+            "console": "debugConsole"
+        },
+        {
+            "name": "Flutter (Default - Development)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define-from-file=assets/env/.env.dev"
+            ],
+            "console": "debugConsole"
+        },
+        {
+            "name": "Flutter (Development - Chrome)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--dart-define-from-file=assets/env/.env.dev"
+            ],
+            "console": "debugConsole",
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Flutter (Development - iOS)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--dart-define-from-file=assets/env/.env.dev"
+            ],
+            "console": "debugConsole",
+            "deviceId": "ios"
+        },
+        {
+            "name": "Flutter (Profile Mode - Development)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--dart-define-from-file=assets/env/.env.dev",
+                "--profile"
+            ],
+            "console": "debugConsole"
+        },
+        {
+            "name": "Flutter (Release Mode - Production)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--dart-define-from-file=assets/env/.env.prod",
+                "--release"
+            ],
+            "console": "debugConsole"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Flutter (All Flavors)",
+            "configurations": [
+                "Flutter (Development)",
+                "Flutter (Staging)",
+                "Flutter (Production)"
+            ]
+        }
+    ]
+} 
